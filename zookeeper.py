@@ -3,7 +3,7 @@ from animals import animals
 
 while True:
     choice = input(
-        "Please enter the number of the habitat you would like to view, type exit if you want to exit: ")
+        "Please enter the number of the habitat you would like to view, type 'exit' if you want to exit: ")
     if choice == "exit":
         print("See you later!")
         break
