@@ -8,8 +8,8 @@ while True:
         print("See you later!")
         break
     else:
-      try:
-        print(animals[int(choice)])
-        print()
-      except (TypeError, IndexError) as error:
-        print("Error! Please enter a number between 0 to 5\n")
+        try:
+            print(animals[int(choice)])
+            print()
+        except (TypeError, IndexError) as error:
+            print("Error! Please enter a number between 0 to 5\n")
