@@ -1,4 +1,5 @@
 from animals import animals
+from os import clear
 
 choice = ""
 
@@ -15,4 +16,5 @@ while choice != "exit":
                 print("\nError! Index out of range")
             print("Please enter a number between 0 to 5\n")
     else:
+        clear()
         print("See you later!")
