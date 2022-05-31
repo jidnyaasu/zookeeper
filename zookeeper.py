@@ -7,10 +7,9 @@ while True:
     if choice == "exit":
         print("See you later!")
         break
-    # elif choice in ['0', '1', '2', '3', '4', '5']:
-        # print(animals[int(choice)])
     else:
       try:
         print(animals[int(choice)])
+        print()
       except (TypeError, IndexError) as error:
-        print("Please enter a number between 0 to 5")
+        print("Error! Please enter a number between 0 to 5\n")
