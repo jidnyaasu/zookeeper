@@ -12,7 +12,8 @@ def clear():
 choice = ""
 
 while choice != "exit":
-    choice = input("Please enter the number of the habitat you would like to view, type 'exit' if you want to exit: ").lower()
+    choice = input(
+        "Please enter the number of the habitat you would like to view, type 'exit' if you want to exit: ").lower()
     if choice != "exit":
         try:
             clear()
